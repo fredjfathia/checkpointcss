@@ -1,0 +1,107 @@
+
+@media screen and (min-width: 400px) and (max-width: 1500px){
+.navbar {
+    background-color: rgb(29, 14, 97);
+    overflow: hidden;  
+    
+   
+    }
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration :none;
+    padding: 20px 22px;
+    font-size: 17px;
+  }
+  .navbar a:hover {
+    
+    background-color: lightgrey;
+    color: rgb(29, 14, 97); 
+ 
+}
+   
+  .navbar form {
+    display: block;
+    text-align: end;
+    padding: 10px 14px;
+    text-decoration :none;
+    font-size: 17px;
+  }
+  b{
+    color: #f2f2f2;
+    text-align: justify;
+
+  }
+  #about {
+    display: flex;
+    flex-direction: row ;
+    border:  rgb(192, 9, 79) solid 3px;
+   margin: 2cm;
+   }
+   #about p {
+    text-align: justify;
+    font-size: 17px;
+margin-top: 2cm;
+margin-left: 2cm;
+margin-right: 1cm;
+margin-bottom: 3cm;
+   }
+   #about img {
+    margin-right: 2cm;
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+   }
+   #work {
+    display:online-block; 
+   }
+ #work form {
+  color: rgb(192, 9, 79);
+  font-size: 16px;
+ padding-left: 2cm;
+ padding-right: 2cm;
+ padding-top: 2cm;
+ padding-bottom: 6cm;
+  
+ }
+ input[type=submit] {
+   width: 50%;
+  background-color:rgb(192, 9, 79);
+  border: none;
+  color: black;
+  font-size:16px ;
+  padding: 10px;
+  margin-left : 100px;
+  margin-top: 20px;
+ }
+ input[type=submit]:hover {
+ background-color: lightgrey;}
+#resume {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 2cm;
+}
+#resume video{
+ padding: 1cm;
+}
+  
+.co {
+  background-color: black;
+    overflow: hidden;  
+    color: blanchedalmond;
+    padding : 20px;
+}
+.co td {
+  color: blanchedalmond;
+}
+.batpage a {
+  float: right;
+  font-size: 16px;
+  text-align: end;
+  color: rgb(233, 10, 10);
+  
+}
+ 
+}
+   
